@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://luongtrinh3018u-crypto.github.io/First-Casino-Gambling/sitemap.xml
+
+# Disallow sensitive areas (if any)
+# Disallow: /admin/
+# Disallow: /private/
