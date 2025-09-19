@@ -2,7 +2,7 @@
 plugins:
   - jekyll-sitemap
 
-# Include XML files
+# Include XML files and set proper handling
 include:
   - sitemap.xml
   - robots.txt
@@ -13,9 +13,15 @@ defaults:
       path: "*.xml"
     values:
       layout: null
+      sitemap: false
 
-# Site settings (optional)
+# Site settings
 title: "First Casino Gambling"
 description: "Your premier online gaming destination"
 url: "https://luongtrinh3018u-crypto.github.io"
 baseurl: "/First-Casino-Gambling"
+
+# Ensure proper XML handling
+permalink: pretty
+markdown: kramdown
+highlighter: rouge

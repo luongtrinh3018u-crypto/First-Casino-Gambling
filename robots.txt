@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Crawl-delay: 1
 
+# Sitemap locations
 Sitemap: https://luongtrinh3018u-crypto.github.io/First-Casino-Gambling/sitemap.xml
