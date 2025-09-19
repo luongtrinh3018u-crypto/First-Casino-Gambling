@@ -1,0 +1,21 @@
+# GitHub Pages configuration
+plugins:
+  - jekyll-sitemap
+
+# Include XML files
+include:
+  - sitemap.xml
+  - robots.txt
+
+# Serve XML files with proper content-type
+defaults:
+  - scope:
+      path: "*.xml"
+    values:
+      layout: null
+
+# Site settings (optional)
+title: "First Casino Gambling"
+description: "Your premier online gaming destination"
+url: "https://luongtrinh3018u-crypto.github.io"
+baseurl: "/First-Casino-Gambling"
