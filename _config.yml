@@ -1,27 +1,19 @@
-# GitHub Pages configuration
-plugins:
-  - jekyll-sitemap
-
-# Include XML files and set proper handling
-include:
-  - sitemap.xml
-  - robots.txt
-
-# Serve XML files with proper content-type
-defaults:
-  - scope:
-      path: "*.xml"
-    values:
-      layout: null
-      sitemap: false
-
 # Site settings
 title: "First Casino Gambling"
 description: "Your premier online gaming destination"
 url: "https://luongtrinh3018u-crypto.github.io"
 baseurl: "/First-Casino-Gambling"
 
-# Ensure proper XML handling
-permalink: pretty
+# Include XML files
+include:
+  - sitemap.xml
+  - robots.txt
+
+# Exclude .htaccess as it's not supported on GitHub Pages
+exclude:
+  - .htaccess
+
+# Markdown settings
 markdown: kramdown
 highlighter: rouge
+permalink: pretty
